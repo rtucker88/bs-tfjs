@@ -1,0 +1,31 @@
+{
+  "name": "bs-tfjs",
+  "version": "0.0.1",
+  "description": "Bucklescript bindings for TensorFlow.js",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest"
+  },
+  "repository": "https://github.com/rtucker88/bs-tfjs.git",
+  "author": "Ryan Tucker <rtucker88@gmail.com>",
+  "keywords": [
+    "bucklescript",
+    "TensorFlow",
+    "machine learning"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rtucker88/bs-tfjs/issues"
+  },
+  "homepage": "https://github.com/rtucker88/bs-tfjs#readme",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-platform": "^3.1.5",
+    "jest": "^23.1.0"
+  },
+  "peerDependencies": {
+    "@tensorflow/tfjs": "^0.11.6"
+  }
+}
